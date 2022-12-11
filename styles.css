@@ -57,7 +57,15 @@ li {
     border-radius: 10%;
     padding: 5px;
     border: 2px solid #F9FAF8;
+  
+    
 
+}
+button:hover {
+    background-color: #E5E7EB;
+    color: #1F2937;
+    cursor: pointer;
+    
 }
 
 .heroimg {
@@ -79,8 +87,60 @@ li {
 .hero {
         display: flex;
         gap: 120px;
-        min-height: 1000px;
+        min-height: 600px;
         background-color: #1F2937;
         align-items: center;
         justify-content: center;
    }
+
+
+.information {
+    
+    display: flex;
+    min-height: 500px;
+    background-color:#F9FAF8;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px;
+
+}
+.cards { 
+    display: flex;
+    justify-content:space-between;
+    margin: 30px;
+    flex:1;
+    gap: 30px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+
+}
+.infoimg {
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+
+}
+.infotext {
+    font-size: 18px;
+    color: #1F2937;
+    display: flex;
+    max-width: 200px;
+    flex-wrap: wrap;
+
+}
+.info-header {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    display: flex;
+ 
+    
+
+}
